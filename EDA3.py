@@ -10,7 +10,7 @@ print(data.shape,"number of rows and number of columns")
 
 data["Age"]=data["Age"].fillna(data["Age"].mean())
 
-
+#using git as of now and checking weather it is working or notgit
 
 
 a=data["Age"].value_counts().reset_index()
